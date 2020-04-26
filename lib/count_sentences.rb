@@ -15,13 +15,13 @@ class String
   end
 
   def count_sentences
-    # sentences = ""
+    # pre_char = ""
     # counter = 0
     # self.split('').map do |char|
-    #   if (char == "!" || char == "?" || char == ".") && sentences != "!" && sentences != "?" && sentences != "."
+    #   if (char == "!" || char == "?" || char == ".") && pre_char != "!" && pre_char != "?" && pre_char != "."
     #     counter += 1
     #   end
-    #   sentences = char
+    #   pre_char = char
     # end 
     # counter
 
